@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-04 09:45:08.466020",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "assessment_year",
+  "payment_status",
+  "tab_break_vdxrh",
+  "type_of_payment"
+ ],
+ "fields": [
+  {
+   "fieldname": "assessment_year",
+   "fieldtype": "Data",
+   "label": "Assessment Year"
+  },
+  {
+   "fieldname": "payment_status",
+   "fieldtype": "Data",
+   "label": "payment Status"
+  },
+  {
+   "fieldname": "tab_break_vdxrh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type_of_payment",
+   "fieldtype": "Data",
+   "label": "Type of Payment"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-04 09:45:44.846177",
+ "modified_by": "Administrator",
+ "module": "Project",
+ "name": "Tax Receipt",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
